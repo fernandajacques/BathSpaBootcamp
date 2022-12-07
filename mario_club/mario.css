@@ -1,0 +1,128 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bannerImage {
+    width: 100%;
+}
+
+#topBar{
+    background: red;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#marioLogo {
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 8px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+
+.banner-image {
+    background-image: url(/Images/Mario/banner.png);
+    height: 600px;
+    background-size: contain;
+}
+
+.banner-image > div {
+    background-color: rgba(255, 198, 4, 0);
+    height: 300px;
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    width: 500px;
+    padding: 30px 25px;
+    position: relative;
+    top: 25%;
+    margin-bottom: 0px;
+}
+
+#topNav {
+    background-color: lightgrey;
+    margin-top: 0px;
+}
+
+.navLinks {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.navLink {
+    display: inline-block;
+    padding: 15px 100px;
+    font-size: 22px;
+}
+
+.navLink:hover {
+    color: red;
+}
+
+h1 {
+    font-size: 40px;
+    color: red;
+    margin-top: 0px;
+}
+
+main {
+    margin: 0px 25px 20px 25px;
+}
+
+main > p::first-line {
+    font-weight: 800;
+}
+
+section > img {
+    max-width: 40%;
+    padding: 60px;
+}
+
+.pics {
+    margin-left: 40px;
+}
+
+.form {
+    background-color: lightgray;
+    padding: 20px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+section > p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+form {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#email {
+    border-radius: 25px;
+    border: 1px white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
